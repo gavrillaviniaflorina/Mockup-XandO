@@ -1,0 +1,61 @@
+main {
+    border: 10px solid #FFD7EB;
+    width: 700px;
+    height: 700px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #D7DDED;
+    /* box-shadow: inset 4px 4px 4px red; */
+}
+
+main h1 {
+    text-align: center;
+}
+
+.joaca {
+    width: 80%;
+    height: 100px;
+    align-self: center;
+    border-radius: 40px;
+    background-color: #FFf2F7;
+    color: #D7DDED;
+    padding: 0px;
+    font-size: 30px;
+}
+
+.game {
+    padding-top: 60px;
+    width: 80%;
+    height: 80%;
+    align-self: center;
+    display: grid;
+    justify-content: center;
+    grid-gap: 5px;
+    grid-template-rows: repeat(3, 150px);
+    grid-template-columns: repeat(3, 150px);
+    background-color: #D7DDED;
+    color: #005CA5;
+}
+
+.game div {
+    height: 150px;
+    width: 150px;
+    border: 5px solid #FFf2F7;
+    text-align: center;
+    font-size: 150px;
+    border-radius: 20px;
+    background-color: #FFD7EB;
+}
+
+.final {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
